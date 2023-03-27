@@ -9,7 +9,29 @@ import {showNotification as show, checkWin} from './guide/guide';
 
 import './App.css';
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+// const words = () => {
+// const API_URL = 'http://localhost:3001/';
+
+//     const options = {
+//       method: 'POST',
+//       headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+//       body: new URLSearchParams({locale: 'en-EN'})
+//     };
+    
+//     fetch(API_URL, options)
+//       .then(response => response.json())
+//       .then((data) => {
+//           setWord(data.word)
+//           console.log(data.word)
+//         })
+//       .catch(err => console.error(err));
+ 
+// useEffect(() => {
+//     getRandomWord();
+//   }, []);
+// }
+
+const words = ['tree'] 
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
